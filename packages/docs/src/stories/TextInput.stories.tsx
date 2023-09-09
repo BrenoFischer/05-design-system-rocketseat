@@ -1,5 +1,10 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@ignite-ui-breno-perricone/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@ignite-ui-breno-perricone/react'
 
 export default {
   title: 'Form/TextInput',
@@ -35,5 +40,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'call.com/',
+    placeholder: 'your-username',
   },
 }
