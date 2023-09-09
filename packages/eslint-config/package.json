@@ -1,5 +1,6 @@
 {
   "name": "@ignite-ui-breno-perricone/eslint-config",
+  "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
   "private": true,
